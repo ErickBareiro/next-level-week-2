@@ -93,6 +93,7 @@
                             <label for="weekday">Dia da semana</label>
                             <select name="weekday[]" required>
                             <option value="">Selecione uma opção</option>
+                            
                             {%for weekday in weekdays%}
                                 <option value="{{loop.index0}}">
                                     {{weekday}}
@@ -103,7 +104,7 @@
 
                         <div class="input-block">
                             <label for="time_from">Das</label>
-                            <input type="time" name="time_form[]" required>
+                            <input type="time" name="time_from[]" required>
                         </div>
 
                         <div class="input-block">

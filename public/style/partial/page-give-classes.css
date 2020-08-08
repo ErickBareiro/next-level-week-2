@@ -23,8 +23,10 @@
 }
 
 #page-give-classes fieldset legend {
-    font: 700 2.4rem Archivo;
+    font: 700 2.4rem Archivo, sans-serif;
+
     color: var(--color-text-title);
+
     margin-bottom: 2.4rem;
 
     display: flex;
@@ -43,11 +45,11 @@
 
     color: var(--color-primary);
 
-    font: 700 1.6rem Archivo;
+    font: 700 1.6rem "Archivo", sans-serif;
 
     cursor: pointer;
 
-    transition: 0.2s;
+    transition: .3s;
 }
 
 #page-give-classes fieldset legend button:hover {
@@ -95,14 +97,14 @@
     border: 0;
     border-radius: .8rem;
     cursor: pointer;
-    font: 700 1.6rem Archivo;
+    font: 700 1.6rem "Archivo", sans-serif;
 
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
 
-    transition: 0.2s;
+    transition: .2s;
     margin-top: 3.2rem;
 }
 
